@@ -125,10 +125,10 @@
 <p>For this example we have:</p>
 
 <script type="math/tex; mode=display">[\mathcal{F}(A\cos(2\pi\omega t)](\xi)
-= \int_{-\infty}^{+\infty} A\cos(2\pi\omega t) e^{-i 2\pi\xi t}dt
-= A \int_{-\infty}^{+\infty} \frac{e^{i 2\pi\omega t} + e^{-i 2\pi\omega t}}{2} e^{-i 2\pi\xi t}dt
-= \frac{A}{2} \int_{-\infty}^{+\infty} e^{i 2\pi(\omega - \xi) t} + e^{-i 2\pi(\omega + \xi) t}dt
-= \frac{A}{2} (\delta(\omega - \xi) + \delta(\omega + \xi)),</script>
+= {\int_{-\infty}^{+\infty} A\cos(2\pi\omega t) e^{-i 2\pi\xi t}dt}
+= {A \int_{-\infty}^{+\infty} \frac{e^{i 2\pi\omega t} + e^{-i 2\pi\omega t}}{2} e^{-i 2\pi\xi t}dt}
+= {\frac{A}{2} \int_{-\infty}^{+\infty} e^{i 2\pi(\omega - \xi) t} + e^{-i 2\pi(\omega + \xi) t}dt}
+= {\frac{A}{2} (\delta(\omega - \xi) + \delta(\omega + \xi))},</script>
 
 <p>where $\delta$ is <a href="https://en.wikipedia.org/wiki/Dirac_delta_function">Dirac function</a>.</p>
 
@@ -137,10 +137,10 @@
 <p>Is above result just a coincidence or not? Let us look at the second example: $f(t) = A\sin(2\pi\omega t)$. Calculations look like this:</p>
 
 <script type="math/tex; mode=display">[\mathcal{F}(A\sin(2\pi\omega t)](\xi)
-= \int_{-\infty}^{+\infty} A\sin(2\pi\omega t) e^{-i 2\pi\xi t}dt
-= A \int_{-\infty}^{+\infty} \frac{e^{i 2\pi\omega t} - e^{-i 2\pi\omega t}}{2i} e^{-i 2\pi\xi t}dt
-= \frac{A}{2i} \int_{-\infty}^{+\infty} e^{i 2\pi(\omega - \xi) t} - e^{-i 2\pi(\omega + \xi) t}dt
-= -\frac{Ai}{2} (\delta(\omega - \xi) - \delta(\omega + \xi)).</script>
+= {\int_{-\infty}^{+\infty} A\sin(2\pi\omega t) e^{-i 2\pi\xi t}dt}
+= {A \int_{-\infty}^{+\infty} \frac{e^{i 2\pi\omega t} - e^{-i 2\pi\omega t}}{2i} e^{-i 2\pi\xi t}dt}
+= {\frac{A}{2i} \int_{-\infty}^{+\infty} e^{i 2\pi(\omega - \xi) t} - e^{-i 2\pi(\omega + \xi) t}dt}
+= {-\frac{Ai}{2} (\delta(\omega - \xi) - \delta(\omega + \xi))}.</script>
 
 <p>Again, all $\xi \ge 0$ are mapped to 0 unless $xi$ is equal to frequency of the original sine wave. And, again, coefficient $-\frac{Ai}{2}$ is proportional to original amplitude.</p>
 
