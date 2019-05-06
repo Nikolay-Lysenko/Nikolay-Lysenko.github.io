@@ -1,55 +1,43 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-05-06T00:30:39+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Notes on mathematics and technology</title><subtitle></subtitle><entry><title type="html">Detailed Introduction to Sound Spectrum from Mathematical Point of View</title><link href="http://localhost:4000/sound/math/2019/05/06/detailed-introduction-to-sound-spectrum-from-mathematical-point-of-view.html" rel="alternate" type="text/html" title="Detailed Introduction to Sound Spectrum from Mathematical Point of View" /><published>2019-05-06T00:00:30+03:00</published><updated>2019-05-06T00:00:30+03:00</updated><id>http://localhost:4000/sound/math/2019/05/06/detailed-introduction-to-sound-spectrum-from-mathematical-point-of-view</id><content type="html" xml:base="http://localhost:4000/sound/math/2019/05/06/detailed-introduction-to-sound-spectrum-from-mathematical-point-of-view.html">&lt;p&gt;This article summarizes basic notions and facts about sound spectrum. Here, I intended to provide mathematically strict and comprehensive overview of what it is. Although this topic is old and well-studied, I’ve faced some difficulties with finding all necessary explanations. So I decided to write this article as a single entry-point where mathematically involved information is collected from numerous sources, structured, and presented in a reader-friendly form.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-05-06T19:46:32+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Notes on mathematics and technology</title><subtitle></subtitle><entry><title type="html">Detailed Introduction to Sound Spectrum from Mathematical Point of View</title><link href="http://localhost:4000/sound/math/2019/05/06/detailed-introduction-to-sound-spectrum-from-mathematical-point-of-view.html" rel="alternate" type="text/html" title="Detailed Introduction to Sound Spectrum from Mathematical Point of View" /><published>2019-05-06T00:00:30+03:00</published><updated>2019-05-06T00:00:30+03:00</updated><id>http://localhost:4000/sound/math/2019/05/06/detailed-introduction-to-sound-spectrum-from-mathematical-point-of-view</id><content type="html" xml:base="http://localhost:4000/sound/math/2019/05/06/detailed-introduction-to-sound-spectrum-from-mathematical-point-of-view.html">&lt;p&gt;This article summarizes basic notions and facts about sound spectrum. Here, I intended to provide mathematically strict and comprehensive overview of what it is. Although this topic is old and well-studied, I’ve faced some difficulties with finding all necessary explanations. So I decided to write this article as a single entry-point where mathematically involved information is collected from numerous sources, structured, and presented in a reader-friendly form.
 &lt;!--more--&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;time-based-reprepsentation-of-sound&quot;&gt;Time-Based Reprepsentation of Sound&lt;/h3&gt;
+&lt;h3 id=&quot;time-domain-reprepsentation-of-sound&quot;&gt;Time-Domain Reprepsentation of Sound&lt;/h3&gt;
 
 &lt;p&gt;A sound fragment can be represented as a univariate function of time $f: T \to \mathbb{R}$, where the set $T$ is a set of moments of time for which this fragment relates. For example, it can be a continuous interval $[t_\mathrm{start}, t_\mathrm{end}]$. If we are talking about digital sound, $T$ is a discrete sequence with a step defined by frame rate (frame rate of 44100 samples per second is often used now). However, further in this article, $T$ is supposed to be $\mathbb{R}$ (the whole time axis) for the sake of convenience.&lt;/p&gt;
 
 &lt;p&gt;Let us shed some light on physical interpretation. Take in mind that sound is heard or recorded in a particular location. So $f$ relates to this location and each value $f(t)$ also relates to the corresponding moment of time $t$. The value $f(t)$ measures deviation of pressure from average pressure in a medium. Such deviations are caused by sound waves.&lt;/p&gt;
 
-&lt;p&gt;Time-based representation of a sound can be seen in plenty of sound graphs created by audio software. The example is shown below:&lt;/p&gt;
+&lt;p&gt;Time-domain representation of a sound can be seen in plenty of sound graphs created by audio software. The example is shown below:&lt;/p&gt;
 
 &lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/assets/sound_graph_cluttered.png&quot; alt=&quot;sound_graph_cluttered&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;The picture is cluttered, so, maybe, it does not look like a graph of univariate function. Nevetheless, if you zoom it in, you can see that this is a function:&lt;/p&gt;
+&lt;p&gt;The picture is cluttered, so, maybe, it does not look like a graph of a univariate function. Nevetheless, if you zoom it in, you can see that this is a function:&lt;/p&gt;
 
 &lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/assets/sound_graph_zoomed.png&quot; alt=&quot;sound_graph_zoomed&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;To conclude this section, let us note that function $f$ refers to a single audio channel. In stereo audio, there is a pair of functions $f_\mathrm{left}$ and $f_\mathrm{right}$, one per each of the channels.&lt;/p&gt;
 
-&lt;h3 id=&quot;on-the-way-to-spectral-representation-of-sound&quot;&gt;On the Way to Spectral Representation of Sound&lt;/h3&gt;
+&lt;h3 id=&quot;frequency-domain-representation-of-sound&quot;&gt;Frequency-Domain Representation of Sound&lt;/h3&gt;
 
-&lt;p&gt;Time-based representation unambiguously defines sound fragment. If so, why other sound representations are needed? Actually, the reason is that time-based representation is not always convenient for analysis. For example, can you guess musical instruments from above sound graphs? Or can you guess musical style?&lt;/p&gt;
+&lt;p&gt;Time-domain representation unambiguously defines sound fragment. If so, why other sound representations are needed? Actually, the reason is that time-domain representation is not always convenient for analysis. For example, can you guess musical instruments from above sound graphs? Or can you guess musical style? Even played chords can not be inferred by humans from the graphs.&lt;/p&gt;
 
-&lt;p&gt;It turns out that some fundamental properties of sound are not defined in terms of $f(t)$ values, but are defined in terms of their dynamic in time.&lt;/p&gt;
+&lt;p&gt;It turns out that some fundamental properties of sound originate not from $f$ itself, but from $f$’s dynamic in time.&lt;/p&gt;
 
-&lt;p&gt;To start with, look at $f(t) \equiv \mathrm{const}$. Computer-generated audio track for such sound consists of three parts: a snap in the very beginning, silence all over the time, and a final snap in the very end. Thus, non-zero values of $f(t)$ may stand for absence of sound and this is a bit of counter-intuitive.&lt;/p&gt;
+&lt;p&gt;To start with, look at $f(t) \equiv \mathrm{const}$. Computer-generated audio track for such sound consists of three parts: a snap in the very beginning, silence all over the time, and a final snap in the very end. Thus, non-zero values of $f(t)$ may stand for absence of sound and this is a bit of counter-intuitive. On the other hand, a fact that $f$ does not change in time and a fact that there is no sound are in accordance with each other.&lt;/p&gt;
 
-&lt;p&gt;To continue, think about the concept of pitch. Only periodic sounds have pitch. If $f$ has no periodic parts, pitch of the corresponding sound is undefined. For example, people can not define pitch of percussion or noise. This way of that, to analyze pitch (and timbre) one needs to decompose $f$ into periodic parts and time-based representation of $f$ is not suitable for it.&lt;/p&gt;
+&lt;p&gt;To continue, think about the concept of pitch. Only periodic sounds have pitch. If $f$ has no periodic parts, pitch of the corresponding sound is undefined. For example, people can not determine pitch of percussion or noise. This way of that, to analyze pitch (and timbre) one needs to decompose $f$ into periodic parts and time-domain representation of $f$ is not suitable for it.&lt;/p&gt;
 
-&lt;p&gt;Arguably, the most often used periodic functions are sine and cosine, which are called trigonometric functions. It follows from &lt;a href=&quot;https://en.wikipedia.org/wiki/Stone%E2%80%93Weierstrass_theorem&quot;&gt;Weierstrass approximation theorem&lt;/a&gt; that &lt;a href=&quot;https://en.wikipedia.org/wiki/Trigonometric_polynomial&quot;&gt;trigonometric polynomials&lt;/a&gt; are dense in the space of continuous periodic functions with period such that $2\pi$ is multiple of it. This statement may look confusing, so let us grasp it by parts.&lt;/p&gt;
+&lt;p&gt;A proper representation for many tasks is &lt;a href=&quot;https://en.wikipedia.org/wiki/Frequency_domain&quot;&gt;frequency-domain&lt;/a&gt; representation. This representation of $f$ maps every frequency presented in $f$ to its amplitude and, optionally, its phase. Such representation is also known as &lt;strong&gt;spectrum&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;A trigonometric polynomial of degree $N \in \mathbb{N}$ is a function of form:&lt;/p&gt;
+&lt;p&gt;Relationship between time-domain representation and frequency-domain representation is perfectly illustrated in an &lt;a href=&quot;https://en.wikipedia.org/wiki/Frequency_domain#/media/File:Fourier_transform_time_and_frequency_domains_(small).gif&quot;&gt;animation&lt;/a&gt; from Wikipedia:&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;P(t) = a_0 + \sum_{n=1}^N a_n \cos(nt) + \sum_{n=1}^N b_n \sin(nt),&lt;/script&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/assets/time_domain_and_frequency_domain.png&quot; alt=&quot;time_domain_and_frequency_domain&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;where $a_i \in \mathbb{R}$ and $b_i \in \mathbb{R}$ are coefficients of this polynomial.&lt;/p&gt;
+&lt;p&gt;If frequency-domain representation has its advantages, the question arises: how can it be derived from time-domain representation $f$? There is more than one method to do so. If $f$ is a continuous periodic function with period such that $2\pi$ is multiple of it, then it can be approximated with &lt;a href=&quot;https://en.wikipedia.org/wiki/Trigonometric_polynomial&quot;&gt;trigonometric polynomials&lt;/a&gt; due to &lt;a href=&quot;https://en.wikipedia.org/wiki/Stone%E2%80%93Weierstrass_theorem&quot;&gt;Weierstrass approximation theorem&lt;/a&gt;. Of course, this approach lacks universality (for example, underlying assumptions do not hold true for functions with period $2\pi q$ where $q$ is irrational). A more powerful method is discussed in the next section.&lt;/p&gt;
 
-&lt;p&gt;Alternatively, it can be written in a more compact notation using &lt;a href=&quot;https://en.wikipedia.org/wiki/Euler%27s_formula&quot;&gt;Euler’s formula&lt;/a&gt;:&lt;/p&gt;
+&lt;h3 id=&quot;fourier-transform&quot;&gt;Fourier Transform&lt;/h3&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;P(t) = \sum_{n=-N}^N c_n e^{int},&lt;/script&gt;
-
-&lt;p&gt;where $c_i \in \mathbb{C}$ are coefficients of this polynomial. Their imaginary part stands for phase shift and this is explained in further sections.&lt;/p&gt;
-
-&lt;p&gt;Approximation theorem states that given a continuous periodic function $f$ and a desired precision $\varepsilon$, it is posiible to find large enough $N$ so that there exists a trigonometric polynomial $P$ that approximates $f$ with the given precision. Loosely speaking, we can assume that there exists $P$ such that $f \approx P$.&lt;/p&gt;
-
-&lt;p&gt;Rigorous formulations and proofs are beyond scope of the article. Here, it is only appropriate to highlight that described approximation allows represent sound in another form. Suppose that an approximation of sound function $f$ is a trigonometric polynomial $P$ of known degree $N$. Then the sound can be represented as a $(2N+1)$-element vector whose components are coefficients of $P$. Similarly to time-based representation, such representation uniquely defines a sound (but such sound is equal to original sound only up to approximation error). Unlikely to time-based representation, such representation allows clearly seeing amplitudes of each basic frequency.&lt;/p&gt;
-
-&lt;p&gt;Remember that above approach lacks universality. It can be applied only to sound functions $f$ that are periodic with period such that $2\pi$ is multiple of it. However, there is a more powerful tool for frequency analysis and it is discussed in the next section.&lt;/p&gt;
-
-&lt;h3 id=&quot;fourier-transform-and-spectrum&quot;&gt;Fourier Transform and Spectrum&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Fourier_transform&quot;&gt;Fourier transform&lt;/a&gt; is a go-to tool for frequency and spectrum analysis. First we will define what it is and then we will see with examples how it relates to spectrum.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Fourier_transform&quot;&gt;Fourier transform&lt;/a&gt; is a go-to tool for finding spectrum.&lt;/p&gt;
 
 &lt;p&gt;Fourier transform $\mathcal{F}$ is a function that takes a function as input and returns a new function as output:&lt;/p&gt;
 
@@ -67,29 +55,63 @@
 
 &lt;p&gt;For this example we have:&lt;/p&gt;
 
-&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;[\mathcal{F}(A\cos(2\pi\omega t)](\xi)
-= \int_{-\infty}^{+\infty} A\cos(2\pi\omega t) e^{-i 2\pi\xi t}dt
-= A \int_{-\infty}^{+\infty} \frac{e^{i 2\pi\omega t} + e^{-i 2\pi\omega t}}{2} e^{-i 2\pi\xi t}dt
-= \frac{A}{2} \int_{-\infty}^{+\infty} e^{i 2\pi(\omega - \xi) t} + e^{-i 2\pi(\omega + \xi) t}dt
-= \frac{A}{2} (\delta(\omega - \xi) + \delta(\omega + \xi)),&lt;/script&gt;
-where $\delta$ is &lt;a href=&quot;https://en.wikipedia.org/wiki/Dirac_delta_function&quot;&gt;Dirac function&lt;/a&gt;.&lt;/p&gt;
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;{[\mathcal{F}(A\cos(2\pi\omega t)](\xi)}
+= {\int_{-\infty}^{+\infty} A\cos(2\pi\omega t) e^{-i 2\pi\xi t}dt}
+= {A \int_{-\infty}^{+\infty} \frac{e^{i 2\pi\omega t} + e^{-i 2\pi\omega t}}{2} e^{-i 2\pi\xi t}dt}
+= {\frac{A}{2} \int_{-\infty}^{+\infty} e^{i 2\pi(\omega - \xi) t} + e^{-i 2\pi(\omega + \xi) t}dt}
+= {\frac{A}{2} (\delta(\omega - \xi) + \delta(\omega + \xi)),}&lt;/script&gt;
+
+&lt;p&gt;where $\delta$ is &lt;a href=&quot;https://en.wikipedia.org/wiki/Dirac_delta_function&quot;&gt;Dirac function&lt;/a&gt;. In the derivation of the result, &lt;a href=&quot;https://en.wikipedia.org/wiki/Euler%27s_formula&quot;&gt;Euler’s formula&lt;/a&gt; is used to represent cosine as semi-sum of two exponents.&lt;/p&gt;
 
 &lt;p&gt;Interpretation of this result is interesting. Let us treat all $\xi \ge 0$ as frequencies in Hz. If so, $\mathcal{F}(A\cos(2\pi\omega t)$ maps all such frequencies to 0 unless $\xi = \omega$, i.e., unless $\xi$ equals to frequency of original cosine wave. What is more, coefficient $\frac{A}{2}$ is proportional to original amplitude.&lt;/p&gt;
 
 &lt;p&gt;Is above result just a coincidence or not? Let us look at the second example: $f(t) = A\sin(2\pi\omega t)$. Calculations look like this:&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;[\mathcal{F}(A\sin(2\pi\omega t)](\xi)
-= \int_{-\infty}^{+\infty} A\sin(2\pi\omega t) e^{-i 2\pi\xi t}dt
-= A \int_{-\infty}^{+\infty} \frac{e^{i 2\pi\omega t} - e^{-i 2\pi\omega t}}{2i} e^{-i 2\pi\xi t}dt
-= \frac{A}{2i} \int_{-\infty}^{+\infty} e^{i 2\pi(\omega - \xi) t} - e^{-i 2\pi(\omega + \xi) t}dt
-= -\frac{Ai}{2} (\delta(\omega - \xi) - \delta(\omega + \xi)).&lt;/script&gt;
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;{[\mathcal{F}(A\sin(2\pi\omega t)](\xi)}
+= {\int_{-\infty}^{+\infty} A\sin(2\pi\omega t) e^{-i 2\pi\xi t}dt}
+= {A \int_{-\infty}^{+\infty} \frac{e^{i 2\pi\omega t} - e^{-i 2\pi\omega t}}{2i} e^{-i 2\pi\xi t}dt}
+= {\frac{A}{2i} \int_{-\infty}^{+\infty} e^{i 2\pi(\omega - \xi) t} - e^{-i 2\pi(\omega + \xi) t}dt}
+= {-\frac{Ai}{2} (\delta(\omega - \xi) - \delta(\omega + \xi)).}&lt;/script&gt;
 
-&lt;p&gt;Again, all $\xi \ge 0$ are mapped to 0 unless $xi$ is equal to frequency of the original sine wave. And, again, coefficient $-\frac{Ai}{2}$ is proportional to original amplitude.&lt;/p&gt;
+&lt;p&gt;Again, all $\xi \ge 0$ are mapped to 0 unless $\xi$ is equal to frequency of the original sine wave. And, again, coefficient $-\frac{Ai}{2}$ is proportional to original amplitude.&lt;/p&gt;
 
-&lt;p&gt;However, now it is imaginary. What does it mean? Actually, this coefficient keeps information about two things: magnitude of amplitude and phase. To see magnitude, one needs to look only at absolute value of this coefficient. Since $\vert-\frac{Ai}{2}\vert = \vert\frac{A}{2}\vert$, both coefficients have the same absolute value. This is in accordance with absence of any differences between sine wave amplitude and cosine wave amplitude. Although two complex numbers $-\frac{Ai}{2}$ and $\frac{A}{2}$ have the same absolute value, their arguments are different. The angle between $-\frac{Ai}{2}$ and $\frac{A}{2}$ is equal to $\frac{\pi}{2}$ radians. This corresponds to phase shift between sine and cosine, and it is in accordance with the fact that $\sin(x + \frac{\pi}{2}) = \cos(x)$.&lt;/p&gt;
+&lt;p&gt;However, now it is imaginary. What does it mean? Actually, this coefficient keeps information about two things: magnitude of amplitude and phase. To see magnitude, one needs to look only at absolute value of this coefficient. Since $\vert -\frac{Ai}{2}\vert = \vert \frac{A}{2}\vert$, both coefficients have the same absolute value. This is in accordance with absence of any differences between sine wave amplitude and cosine wave amplitude. Although two complex numbers $-\frac{Ai}{2}$ and $\frac{A}{2}$ have the same absolute value, their arguments are different. The angle between $-\frac{Ai}{2}$ and $\frac{A}{2}$ is equal to $\frac{\pi}{2}$ radians. This corresponds to phase shift between sine and cosine, and it is in accordance with the fact that $\sin(x + \frac{\pi}{2}) = \cos(x)$.&lt;/p&gt;
 
-&lt;p&gt;An interested reader can compute Fourier transform of $f(t) = A\cos(2\pi\omega t + b)$ as an exercise. Phase shift introduced by $b$ should be reflected in argument of complex coefficient before delta functions.&lt;/p&gt;
+&lt;p&gt;An interested reader can compute Fourier transform of $f(t) = A\cos(2\pi\omega t + b)$ as an exercise. Phase shift introduced by $b$ should be reflected in argument of complex coefficient near delta functions.&lt;/p&gt;
 
-&lt;p&gt;Above examples illustrate a “magic” property of Fourier transform. Fourier transform of a sound function $f$ allows us to decompose $f$ into frequencies and for every frequency find its amplitude and phase.&lt;/p&gt;
+&lt;p&gt;Above examples illustrate a “magic” property of Fourier transform. Fourier transform of a sound function $f$ allows us to decompose $f$ into frequencies and to find amplitude and phase for every frequency. Thereby, spectrum of $f$ can be calculated as its Fourier transform $\mathcal{F}(f)$.&lt;/p&gt;
 
-&lt;p&gt;From mathematical point of view, spectrum of $f$ can be defined as its Fourier transform $\mathcal{F}(f)$. Spectral representation is a representation where frequencies are mapped to their amplitudes and phases.&lt;/p&gt;</content><author><name></name></author><summary type="html">This article summarizes basic notions and facts about sound spectrum. Here, I intended to provide mathematically strict and comprehensive overview of what it is. Although this topic is old and well-studied, I’ve faced some difficulties with finding all necessary explanations. So I decided to write this article as a single entry-point where mathematically involved information is collected from numerous sources, structured, and presented in a reader-friendly form.</summary></entry></feed>
+&lt;h3 id=&quot;an-advanced-example-white-noise&quot;&gt;An Advanced Example: White Noise&lt;/h3&gt;
+
+&lt;p&gt;Previously, relatively simple examples were studied. Now, it is the time to see how Fourier transform can help to reveal non-trivial insights.&lt;/p&gt;
+
+&lt;p&gt;Let us consider something more complicated than a function of time $f$ — a stochastic process. A stochastic process $\phi$ can be considered a function of two arguments: time $t$ and an outcome of uncertainty $u$, $u \in U$, where nature of space of all outcomes $U$ is out of scope of the article. Given known outcome $u_0$, $\phi(\cdot, u_0)$ is a function of time. Given fixed moment of time $t_0$, $\phi(t_0, \cdot)$ is a random variable. For the sake of convenience, dependence of $\phi$ on $u$ is omitted further and it is assumed that all expectations are taken over $u$.&lt;/p&gt;
+
+&lt;p&gt;Definition of spectrum from the previous sections is applicable to functions, but not to stochastic processes. Hence, it needs a small clarification. Spectrum of a stochastic process $\phi$ is expected value of its Fourier transform: $\mathbb{E}[\mathcal{F}(\phi)]$.&lt;/p&gt;
+
+&lt;p&gt;Phase may introduce additional difficulties with spectrum calculation, so sometimes it is simpler to ignore it and to find only expectations of (squared) absolute values $\mathbb{E}\left[\vert \mathcal{F}(\phi)(\xi) \vert^2\right]$ for all $\xi$. This method loses information about phase (because argument of complex number is lost), but keeps information about absolute value of amplitude. In physics, $\mathbb{E}\left[\vert \mathcal{F}(\phi)(\xi) \vert^2\right]$ is called &lt;a href=&quot;https://en.wikipedia.org/wiki/Spectral_density#Power_spectral_density&quot;&gt;power spectral density&lt;/a&gt;, because power is proportional to square of amplitude (and, in this terminology, Fourier transform computes amplitude spectral density).&lt;/p&gt;
+
+&lt;p&gt;Now, all general preparations are finished and it is the time to switch to our example. Define white noise as a stochastic process $\phi$ such that:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;$\forall t$ $\mathbb{E}[\phi(t)] = 0$, i.e., expected value is zero;&lt;/li&gt;
+  &lt;li&gt;$\forall t_1, t_2$ $\mathbb{E}[\phi(t_1)\phi(t_2)] = \sigma^2 \delta(t_1 - t_2)$, i.e., for each $t$ variance of $\phi(t)$ is a constant denoted as $\sigma^2$ and for each $t_1$ and $t_2$ where $t_1 \ne t_2$ correlation between $\phi(t_1)$ and $\phi(t_2)$ is 0.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In some literature, additional condition is imposed. Namely, $\phi(t)$ must have Gaussian distribution. Actually, such white noise is called Gaussian white noise and it is a particular type of white noise.&lt;/p&gt;
+
+&lt;p&gt;The task is to calculate power spectral density of white noise:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mathbb{E}[\vert\hat{\phi}(\xi)\vert^2]
+= {\mathbb{E}[\overline{\hat{\phi}(\xi)} \hat{\phi}(\xi)]}
+= {\mathbb{E}\left[\int_{-\infty}^{+\infty} \overline{\phi(t_1)} e^{i 2\pi\xi t_1} dt_1 \, \int_{-\infty}^{+\infty} \phi(t_2) e^{-i 2\pi\xi t_2} dt_2\right]}
+= {\int_{-\infty}^{+\infty} \int_{-\infty}^{+\infty} \mathbb{E}[\overline{\phi(t_1)}\phi(t_2)] e^{i 2\pi\xi (t_1 - t_2)} dt_1 dt_2}
+= {\int_{-\infty}^{+\infty} \int_{-\infty}^{+\infty} \mathbb{E}[\phi(t_1)\phi(t_2)] e^{i 2\pi\xi (t_1 - t_2)} dt_1 dt_2}
+= {\sigma^2 \int_{-\infty}^{+\infty} \int_{-\infty}^{+\infty} \delta(t_1 - t_2) e^{i 2\pi\xi (t_1 - t_2)} dt_1 dt_2}
+= {\sigma^2 \int_{-\infty}^{+\infty} \int_{-\infty}^{+\infty} \delta(\tau) e^{-i 2\pi\xi \tau} d\tau dt_1}
+= {\sigma^2 \int_{-\infty}^{+\infty} \hat{\delta}(\xi) dt_1}
+= {\sigma^2 \hat{\delta}(\xi)}
+= {\sigma^2,}&lt;/script&gt;
+
+&lt;p&gt;where $\tau = t_2 - t_1$. In the last step, a fact that Fourier transform of delta function is 1, is used.&lt;/p&gt;
+
+&lt;p&gt;So Fourier transform helps to prove that white noise has the same absolute value of amplitude at all frequencies. It is non-trivial and interesting, is not it?&lt;/p&gt;</content><author><name></name></author><summary type="html">This article summarizes basic notions and facts about sound spectrum. Here, I intended to provide mathematically strict and comprehensive overview of what it is. Although this topic is old and well-studied, I’ve faced some difficulties with finding all necessary explanations. So I decided to write this article as a single entry-point where mathematically involved information is collected from numerous sources, structured, and presented in a reader-friendly form.</summary></entry></feed>
