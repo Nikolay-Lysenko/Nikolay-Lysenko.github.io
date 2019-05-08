@@ -128,11 +128,11 @@
 = {\int_{-\infty}^{+\infty} A\sin(2\pi\omega t) e^{-i 2\pi\xi t}dt}
 = {A \int_{-\infty}^{+\infty} \frac{e^{i 2\pi\omega t} - e^{-i 2\pi\omega t}}{2i} e^{-i 2\pi\xi t}dt}
 = {\frac{A}{2i} \int_{-\infty}^{+\infty} e^{i 2\pi(\omega - \xi) t} - e^{-i 2\pi(\omega + \xi) t}dt}
-= {-\frac{Ai}{2} (\delta(\omega - \xi) - \delta(\omega + \xi)).}</script>
+= {-\frac{A}{2}i (\delta(\omega - \xi) - \delta(\omega + \xi)).}</script>
 
-<p>Again, all $\xi \ge 0$ are mapped to 0 unless $\xi$ is equal to frequency of the original sine wave. And, again, coefficient $-\frac{Ai}{2}$ is proportional to original amplitude.</p>
+<p>Again, all $\xi \ge 0$ are mapped to 0 unless $\xi$ is equal to frequency of the original sine wave. And, again, coefficient $-\frac{A}{2}i$ is proportional to original amplitude.</p>
 
-<p>However, now it is imaginary. What does it mean? Actually, this coefficient keeps information about two things: magnitude of amplitude and phase. To see magnitude, one needs to look only at absolute value of this coefficient. Since $\vert -\frac{Ai}{2}\vert = \vert \frac{A}{2}\vert$, both coefficients have the same absolute value. This is in accordance with absence of any differences between sine wave amplitude and cosine wave amplitude. Although two complex numbers $-\frac{Ai}{2}$ and $\frac{A}{2}$ have the same absolute value, their arguments are different. The angle between $-\frac{Ai}{2}$ and $\frac{A}{2}$ is equal to $\frac{\pi}{2}$ radians. This corresponds to phase shift between sine and cosine, and it is in accordance with the fact that $\sin(x + \frac{\pi}{2}) = \cos(x)$.</p>
+<p>However, now it is imaginary. What does it mean? Actually, this coefficient keeps information about two things: magnitude of amplitude and phase. To see magnitude, one needs to look only at absolute value of this coefficient. Since $\vert -\frac{A}{2}i\vert = \vert \frac{A}{2}\vert$, both coefficients have the same absolute value. This is in accordance with absence of any differences between sine wave amplitude and cosine wave amplitude. Although two complex numbers $-\frac{A}{2}i$ and $\frac{A}{2}$ have the same absolute value, their arguments are different. The angle between $-\frac{A}{2}i$ and $\frac{A}{2}$ is equal to $\frac{\pi}{2}$ radians. This corresponds to phase shift between sine and cosine, and it is in accordance with the fact that $\sin(x + \frac{\pi}{2}) = \cos(x)$.</p>
 
 <p>An interested reader can compute Fourier transform of $f(t) = A\cos(2\pi\omega t + b)$ as an exercise. Phase shift introduced by $b$ should be reflected in argument of complex coefficient near delta functions.</p>
 
