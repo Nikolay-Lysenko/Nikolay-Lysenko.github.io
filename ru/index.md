@@ -5,5 +5,5 @@ lang: ru
 other_lang_url: /
 
 list_title: Публикации
-subscribe: Подписаться через
+rss_info: RSS-лента (в формате XML)
 ---
