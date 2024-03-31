@@ -32,7 +32,7 @@ If one wants to listen to any of the composers who wrote monophonic chants, I su
 
 Arguably, the first truly polyphonic music is attributed to Leonin (~1135–1201). In his works, there are two voices, but three and even four voices can be found in the works of his student Perotin (~1160 – ~1230). Because both Leonin and Perotin were clergymen who served at Notre-Dame Cathedral in Paris, they and their anonymous colleagues are called the Notre-Dame school of polyphony.
 
-Most of the pieces by Leonin and Perotin are created by adding new voices to already existing Gregorian chants. The rhythm of these new voices is often regulated. For instance, like in the metrical foot named dactyl, there may be one long note followed by two short notes and this combination of durations is repeated several times. In the context of vocal music, this technique allows replacing words with vowels and, thus, freeing the second voice from singing the text of the first voice. This is one of the earliest solutions to the problem of introducing additional voices given a single text.
+Most of the pieces by Leonin and Perotin are created by adding new voices to already existing Gregorian chants. The rhythm of these new voices is often regularized. For instance, like in the metrical foot named dactyl, there may be one long note followed by two short notes and this combination of durations is repeated several times. In the context of vocal music, this technique allows replacing words with vowels and, thus, freeing the second voice from singing the text of the first voice. This is one of the earliest solutions to the problem of introducing additional voices given a single text.
 
 In the XIII century, another way to combine multiple voices with a single text was found. It is a musical form that has been called canon since the XVI century. There, each new voice starts after some time since the start of the previous voice and then reproduces the same melody precisely up to a shift in pitch. From rigorous point of view, there is only one independent voice, but, nevertheless, it is a true polyphony, because the durations of notes that were in the original melody some time ago and are now being played by the imitating voice, may differ significantly from the current durations of the main melody. Due to this, the voices sound as if they were independent, and, as a side bonus, the piece itself seems more integrated. The price for this is an increased difficulty of writing a melody, because now harmonic considerations regarding its shifted copies must be taken into account.
 
@@ -42,45 +42,51 @@ On the one hand, composers were interested in polyphony development, because add
 
 Out of numerous medieval composers, let us mention Philippe de Vitry (1291–1361) and Guillaume de Machaut (1300–1377).
 
-#### Ренессанс и контрапункт строгого письма
+#### Renaissance and strict counterpoint
 
-В эпоху Возрождения окончательно сформировались правила, по которым писалась полифоническая музыка. Эти правила могут быть разделены на три группы:
-* мелодические (определяют движение каждого отдельно взятого голоса),
-* гармонические (регулируют совместное звучание голосов),
-* ритмические.
+During the Renaissance, the rules of contrapuntal music writing took their final form. These rules can be divided into three groups:
+* melodic (regulate dynamics of a separate voice),
+* harmonic (regulate simultaneously sounding pitches from all voices),
+* rhythmic.
 
-Примерами мелодических правил являются такие:
-* чтобы мелодия была цельной, в основном высота должна изменяться плавно, однако для разнообразия нужно иногда использовать скачки,
-* после каждого скачка чтобы снять напряжение, необходим шаг назад на одну ступень лада,
-* недопустимы ходы на интервалы, которые сложно пропеть (не применимо к инструментальной музыке),
-* нельзя двигаться в одном направлении на суммарный интервал, превышающий пять ступеней,
-* мелодический сегмент должен иметь дугообразную форму, в которой по мере приближения к наивысшей точке растёт напряжение, а после неё идёт спуск к стабильности.
+To name a few of melodic rules, there are:
+* In order to have unity, pitch must change smoothly, but, to promote diversity, occasional skips are required.
+* Stepwise move in the opposite direction is needed after each large enough skip, because it relaxes tension associated with the skip.
+* Melodic intervals that are hard to sing, are prohibited (not applicable to instrumental music).
+* Moving by more than five scale degrees without any changes in direction is prohibited, because it sounds too monotonous.
+* Melody must consist of arc-shaped segments where tension rises as the melody gets closer to the climax point and dissipates after it is passed.
 
-К гармоническим правилам относятся в том числе такие такие:
-* поскольку совершенные консонансы звучат «пусто», нельзя нагромождать их рядом друг с другом,
-* не допускается прямое (однонаправленное) движение к совершенным консонансам, потому что оно размывает индивидуальность голосов,
-* диссонансы запрещены на сильных долях такта, если только одна из нот не была перенесена из предыдущей меры,
-* каждый диссонанс должен быть надлежащим образом подготовлен и разрешён (например, после синкопированного диссонанса требуется перенесённую ноту опустить вниз на одну ступень).
+As for the rules of harmony, examples are as follows:
+* Since perfect consonances sound harmonically mellow, two or more perfect consonances in a row should be avoided.
+* Direct motion to perfect consonances is prohibited, because it dilutes individuality of melodic lines.
+* Dissonances are prohibited on strong beats unless one of the notes is tied over bar.
+* Each dissonance must be properly prepared and resolved (for example, tied over bar note must be moved one scale degree down after syncopated dissonance).
 
-В общем случае ритмическое правило всего одно: ритм обязан быть согласованным с метром. Это означает, что разрешены только такие разбиения такта на отдельные длительности, которые можно представить как череду последовательных делений на две части, из которых левая не короче правой.
+In general, there is only one rhythmic rule — misalignments between rhythm and meter are not allowed. This means that a listener must be able to unambiguously define meter from rhythm. This, in turn, means that splitting a measure into note durations must be a set of binary splits with the left part having duration greater than or equal to that of the right part.
 
-Подробнее об этих правилах можно почитать в учебнике Фукса «Шаг к Парнасу» (1725) или в труде Танеева «Подвижной контрапункт строгого письма» (1909). Здесь же уместно отметить, что все эти правила относились к сочинению полифонического фрагмента длиной до 20 тактов. Но как писались более длинные произведения? Они составлялись из подобных фрагментов. Связность же между отдельными частями достигалась за счёт следующих приёмов:
-* остинатная имитация, буквальное повторение каким-либо голосом одной и той же мелодии (например, уставного напева, cantus firmus),
-* стреттная имитация, повторение какого-либо сегмента одного голоса другим голосом ещё до того, как первый голос его закончил, и перенос невместившейся части этого повторения в следующий фрагмент,
-* имитация с варьированием, то есть один из предыдущих вариантов, но с изменением повторяемого голоса (инверсия, обращение, другой ритм),
-* подвижной контрапункт, повторение пары голосов (а не одного, как ранее) с изменённым вертикальным интервалом между ними или с горизонтальным сдвигом по времени между ними.
+You can read more about the rules of strict counterpoint in "Gradus ad Parnassum" (1725) by Fux or in "Convertible Counterpoint in the Strict Style" (1909) by Taneyev. However, it is appropriate to highlight that these rules prescribe how to write a polyphonic fragment of no more than 20 measures in length. But how are the longer pieces written? They are compiled from such fragments. Coherence between adjacent fragments is achieved with these techniques:
+* ostinato imitation — exact repetition of the same melody by a voice (in particular, repetitions of cantus firmus),
+* stretto imitation — exact repetition of voice's part by another voice before the original voice finishes it and transition of out-of-room imitated notes to the next fragment,
+* imitation with variation — one of the above options, but with alterations in imitating voice such as melody inversion, retrograde inversion, or changes in rhythm,
+* complex counterpoint — a group of voices is repeated with some modifications such that no rules are violated by the modified copy (unlke the previous options, multiple voices are repeated and not just one).
 
-К композиторам раннего Возрождения относятся:
-* Гийом Дюфаи (1397–1474),
-* Йоханнес Окегем (1425–1497),
-* Жоскен Депре (1450–1521).
+Complex counterpoint can be classified by applied modifications:
+* invertible counterpoint — some voices are swapped with each other,
+* structural counterpoint — some voices are inverted and/or reverted,
+* vertically convertible counterpoint — a pair of voices is repeated with the same shift added to all intervals between them,
+* horizontally convertible counterpoint — a pair of voices is repeated with delay in time between them.
 
-Наивысшего же расцвета контрапункт строгого письма достиг в произведениях следующих композиторов:
-* Джованни Пьерлуиджи да Палестрина (1525–1594),
-* Орландо ди Лассо (1532–1594),
-* Томас Луис де Виктория (1548–1611).
+Some composers of the early Renaissance are:
+* Guillaume Du Fay (1397–1474),
+* Johannes Ockeghem (1425–1497),
+* Josquin des Prez (1450–1521).
 
-#### Барокко и контрапункт свободного письма
+Further, strict counterpoint reached its highest peak in the works of the following composers:
+* Giovanni Pierluigi da Palestrina (1525–1594),
+* Orlando di Lasso (1532–1594),
+* Tomas Luis de Victoria (1548–1611).
+
+#### Barocco and free counterpoint
 
 На рубеже XVI–XVII веков, с одной стороны, развивается театр (например, в то время жили Шекспир и Лопе де Вега), а, с другой стороны, появляются и первые оперы. Если церковные песнопения исполнялись на латыни, которую большинство прихожан не знали, и поэтому поток из нескольких текстов не создавал неудобств, то для оперы было бы желательно иметь лишь один текст. Это одна из причин, почему из многоголосия стал выделяться верхний голос, исполняющий основную мелодию, а остальные голоса отошли на второй план. Обособление верхнего голоса позволило писать для него более выразительные мелодии, ведь ради их изысков можно было жертовать развитием прочих голосов. Впрочем, о разделении на мелодию и аккомпанимент речь ещё не шла.
 
