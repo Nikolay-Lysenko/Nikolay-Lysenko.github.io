@@ -11,7 +11,7 @@ My first musical piece ("Suite for Virtual Pipe Organ, Op. 1") is based upon pri
 
 #### Starting point
 
-Polyphonic music existed among different nations and in different times. However, let us focus only on Europe and track polyphony development from IX–XII centuries. From that period, both religious pieces (in particular, Gregorian chants) and secular works (say, the love songs by the troubadours and trouvères) have survived. Besides the music itself, there are extant musicological treatises from those days: for instance, "Micrologus" by Guido of Arezzo (~990 – ~1050).
+Polyphonic music existed among different nations and in different times. However, let us focus only on Europe and track polyphony development from IX–XII centuries. From that period, both religious pieces (in particular, Gregorian chants) and secular works (say, the love songs by troubadours and trouvères) have survived. Besides the music itself, there are extant musicological treatises from those days: for instance, "Micrologus" by Guido of Arezzo (~990 – ~1050).
 
 The music of those times has the following properties:
 * modality,
@@ -22,11 +22,11 @@ Let us discuss them one by one. Although it may sound tautological, modal music 
 Even so the scale of Ionian mode is the same as that of natural major and the scale of Aeolian mode is the same as that of natural minor, similarities to tonal music are occasional. The following properties, innate to tonal music, are absent:
 * gravitation to tonic which plays the role of universal center (only nearby unstable pitches are attracted by the first scale degree in modal music),
 * the need to clarify current tonality (e.g., ending the melody on the tonic),
-* possibility to support melody with chords that make it more comprehensible.
+* possibility to support melody with chords which make it more comprehensible.
 
 As for monophony, it looks like the things are simpler — there is only one voice. Actually, not at all — there is only one independent voice. In particular, a male choir and a female choir could sing the same melody simultaneously and in the same rhythm, but with an octave interval. Every other consonant interval could be used instead of the octave as well, but, as a rule, at the very beginning and at the very end the interval should be equal to the octave. One of the voices does not change its pitch at first, so that the chosen interval occurs instead of the octave, and at the end also stops changing pitch, so that the last interval becomes the octave again. Moreover, at least since the IX century there were so-called free organums in which the second voice, repeating the rhythm of the main voice, could form changing intervals. However, the second voice did not have its own full-fledged dynamics, and hence there was only one independent voice.
 
-If one wants to listen to any of the composers who wrote monophonic chants, I suggest to start with, say, Hildegard of Bingen (1098–1179).
+If one wants to listen to monophonic chants, it is possible to start with works by Hildegard of Bingen (1098–1179).
 
 #### Polyphony in the Midlde Ages
 
@@ -65,14 +65,13 @@ As for the rules of harmony, examples are as follows:
 In general, there is only one rhythmic rule — misalignments between rhythm and meter are not allowed. This means that a listener must be able to unambiguously define meter from rhythm. This, in turn, means that splitting a measure into note durations must be a set of binary splits with the left part having duration greater than or equal to that of the right part.
 
 You can read more about the rules of strict counterpoint in "Gradus ad Parnassum" (1725) by Fux or in "Convertible Counterpoint in the Strict Style" (1909) by Taneyev. However, it is appropriate to highlight that these rules prescribe how to write a polyphonic fragment of no more than 20 measures in length. But how are the longer pieces written? They are compiled from such fragments. Coherence between adjacent fragments is achieved with these techniques:
-* ostinato imitation — exact repetition of the same melody by a voice (in particular, repetitions of cantus firmus),
+* ostinato imitation — exact repetition of the same melody by a voice (in particular, repetitions of cantus firmus), whereas other voices may have new melodies,
 * stretto imitation — exact repetition of voice's part by another voice before the original voice finishes it and transition of out-of-room imitated notes to the next fragment,
 * imitation with variation — one of the above options, but with alterations in imitating voice such as melody inversion, retrograde inversion, or changes in rhythm,
-* complex counterpoint — a group of voices is repeated with some modifications such that no rules are violated by the modified copy (unlke the previous options, multiple voices are repeated and not just one).
+* compound counterpoint — a group of voices is repeated with some modifications such that no rules are violated by the modified copy (unlke the previous options, multiple voices are repeated and not just one).
 
-Complex counterpoint can be classified by applied modifications:
-* invertible counterpoint — some voices are swapped with each other,
-* structural counterpoint — some voices are inverted and/or reverted,
+Compound counterpoint can be classified by applied modifications:
+* invertible counterpoint — some voices might be swapped with each other, inverted, and/or reverted,
 * vertically convertible counterpoint — a pair of voices is repeated with the same shift added to all intervals between them,
 * horizontally convertible counterpoint — a pair of voices is repeated with delay in time between them.
 
@@ -81,23 +80,24 @@ Some composers of the early Renaissance are:
 * Johannes Ockeghem (1425–1497),
 * Josquin des Prez (1450–1521).
 
-Further, strict counterpoint reached its highest peak in the works of the following composers:
+Further, strict counterpoint reached its highest peak in the works of the below composers:
 * Giovanni Pierluigi da Palestrina (1525–1594),
 * Orlando di Lasso (1532–1594),
+* William Byrd (1543–1623),
 * Tomas Luis de Victoria (1548–1611).
 
-#### Barocco and free counterpoint
+#### Baroque and free counterpoint
 
-На рубеже XVI–XVII веков, с одной стороны, развивается театр (например, в то время жили Шекспир и Лопе де Вега), а, с другой стороны, появляются и первые оперы. Если церковные песнопения исполнялись на латыни, которую большинство прихожан не знали, и поэтому поток из нескольких текстов не создавал неудобств, то для оперы было бы желательно иметь лишь один текст. Это одна из причин, почему из многоголосия стал выделяться верхний голос, исполняющий основную мелодию, а остальные голоса отошли на второй план. Обособление верхнего голоса позволило писать для него более выразительные мелодии, ведь ради их изысков можно было жертовать развитием прочих голосов. Впрочем, о разделении на мелодию и аккомпанимент речь ещё не шла.
+At the turn of the XVI-XVII centuries, on the one hand, the theater underwent significant development (say, Shakespeare and Lope de Vega lived at that time), and, on the other hand, the first operas were created. In contrast to sacred songs performed in obscure to most of the parishioners Latin, torrent of multiple texts in opera is not appropriate. This is one of the reasons why the upper voice became more prominent and pushed other voices to background. Particular attention to the upper voice allowed writing more expressive melodies for it, since development of other voices could be sacrificed for upper voice subtleties. However, it was not straight division into melody and accompaniment, this approach was invented later.  
 
-Параллельно с этим из каденций (окончаний, создающих ощущение стабильности и разрешения) стала зарождаться тональность. Всё это вместо привело к тому, что правила строгого письма стали менее обязательными. В контрапункте свободного письма придерживаться правил желательно, но отклонения от них, особенно вызванные тональными соображениями, являются нормой.
+Meantime, tonality started to emerge out of cadential formulas (final movements creating stability and resolution). Both of these factors led to decrease in strictness of contrapuntal rules. In free counterpoint, the rules are rather guidelines and violations are allowed, especially if they are caused by tonal considerations.
 
-Из композиторов эпохи барокко перечислим следующих:
-* Клаудио Монтеверди (1567–1643),
-* Дитрих Букстехуде (1637–1707),
-* Иоганн Пахельбель (1653–1706),
-* Антонио Вивальди (1678–1741),
-* Иоганн Себастьян Бах (1685–1750),
-* Георг Фридрих Гендель (1685–1759).
+A list of some Baroque composers might include:
+* Claudio Monteverdi (1567–1643),
+* Dieterich Buxtehude (1637–1707),
+* Johann Pachelbel (1653–1706),
+* Antonio Vivaldi (1678–1741),
+* Johann Sebastian Bach (1685–1750),
+* George Frideric Handel (1685–1759).
 
-Когда барокко сменилось классицизмом, на смену контрапунктическим правилам пришли принципы тональности, а на смену полифонии пришла гомофония, то есть текстура, в которой ритм основного голоса более-менее копируется остальными голосами. Хотя контрапунктические элементы продолжали присутствовать в музыке классицизма и романтизма, новый этап развития полифонии начался лишь в XX веке, когда композиторы решили выйти за пределы тональности.
+When Classical period superseded Baroque, contrapunctal rules were replaced with principles of tonality which are formulated in terms of chords rather than intervals. Polyphony was replaced with homophony, i.e., the texture where the rhythm of the main voice is more or less reproduced by other voices. Although contrapuntal elements continued to exist in the music of Classicism and Romanticism, a new era of polyphony development started only in the XX century when composers decided to go beyond tonality.
