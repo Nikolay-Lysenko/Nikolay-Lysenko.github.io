@@ -7,7 +7,7 @@ other_lang_url: /2024/03/31/kratkaya-istoriya-polifonicheskoy-muzyki-xii-xviii-v
 ---
 #### Introduction
 
-My first musical piece (Suite for Virtual Pipe Organ, Op. 1) is based upon principles of twelve-tone technique and counterpoint. As for twelve-tone technique (also known as dodecaphony), I will discuss it in a later post. Now, I am going to review the history of contrapuntal music. In this article, words "contrapuntal" and "polyphonic" are used interchangeably, although some musicologists might say their meanings slightly differ. And let me highlight that this text does not claim to be comprehensive and unbiased. After all, I am not a music historian, but an amateur composer. So, the main goal is to provide one of the clues to understanding my work.
+My first musical piece (Suite for Virtual Pipe Organ, Op. 1) is based upon principles of twelve-tone technique and counterpoint. As for twelve-tone technique (also known as dodecaphony), I will discuss it in [a later post]({% post_url 2024-04-30-introduction-to-twelve-tone-technique %}). Now, I am going to review the history of contrapuntal music. In this article, words "contrapuntal" and "polyphonic" are used interchangeably, although some musicologists might say their meanings slightly differ. And let me highlight that this text does not claim to be comprehensive and unbiased. After all, I am not a music historian, but an amateur composer. So, the main goal is to provide one of the clues to understanding my work.
 
 #### Starting point
 
