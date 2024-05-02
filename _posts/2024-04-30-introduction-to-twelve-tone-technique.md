@@ -27,31 +27,31 @@ This way or that, the twelve-tone technique is derived from another approach —
 
 The above considerations are not very restrictive and they define musical direction which, for historical reasons, is called free atonality. Free atonality emerged around 1910, but in the 1920s it was superseded by the twelve-tone technique and regained public interest only in the second half of the 20th century. The main problem with free atonality is that it does not provide any means for structuring long pieces. On the contrary, dodecaphony grants them.
 
-#### Новая венская школа
+#### Second Viennese School
 
-Ключевой фигурой в становлении додекафонии является Арнольд Шёнберг (1874–1951). Он и его ученики Альбан Берг (1885–1935) и Антон Веберн (1883–1945) образовали ядро так называемой Новой венской школы, противопоставляемой Венской классической школе (Гайдн, Моцарт, Бетховен).
+The key figure in the establishment of the twelve-tone technique was Arnold Schoenberg (1874–1951). He and his students Alban Berg (1885–1935) and Anton Webern (1883–1945) formed the core of the Second Viennese School which is often compared to the First Viennese School (Haydn, Mozart, Beethoven).
 
-Шёнберг предложил опираться на серию, то есть на упорядоченную последовательность 12 тонов. Серия является материалом, из которого создаётся произведение. Она может возникать в произведении в разных видах:
-* проводиться одним голосом целиком, от первого тона до двенадцатого,
-* проходить по нескольким голосам так, чтобы более ранние ноты получали более ранние тоны серии,
-* разделяться на две произвольные группы, так что верхний голос (мелодия) проводит по порядку все тоны из первой группы, а по нижним голосам (аккомпанимент) проходят тоны из второй группы.
+Schoenberg suggested to back a piece by a tone row (also known as series), i.e., an ordered sequence of all 12 pitch classes. Tone row is a building block and a piece is made of its instances. Tone row can enter the piece in several forms:
+* being entirely within a single voice, from its first pitch class to the twelfth pitch class,
+* being distributed among two or more voices so that the earlier a note starts, the earlier its pitch class is in the series,
+* being split into two groups so that the upper voice (the melody) uses all pitch classes from the first group (keeping their ordering) and the second group is distributed among lower voices (accompaniment).
 
-Наравне с серией могут использоваться её преобразованные версии. Как правило, к преобразованиям относят следующие:
-* инверсия (серия начинается с того же тона, но далее интервалы между соседними тонами, ведущие вверх, заменяются на аналогичные, идущие вниз, и наоборот, то есть серия отражается относительно горизонтальной оси),
-* обращение (серия переворачивается, так что начало становится концом, а конец началом),
-* транспонирование (ко всем тонам серии добавляется один и тот же интервал),
-* вращение (первый тон становится вторым, второй третьим, …, двенадцатый первым; это преобразование Шёнбергом не использовалось).
+On par with a tone row, its transformed versions can be used. Usually, the list of transformations is as follows:
+* inversion (new tone row starts with the same pitch class as the original one, but then upward intervals between adjacent pitch classes are replaced with downward ones of the same size and vice versa; i.e., the series is reflected over horizontal axis),
+* reversion (the series becomes its retrograde version),
+* transposition (the same interval is added to all pitch classes),
+* rotation (the first pitch class becomes the second one, the second pitch class is now the third one, …, the twelfth pitch class becomes the first one; this transformation is not used by Schoenberg).
 
-К серии можно применить более одного преобразования: например, срезу и инверсию, и обращение, или несколько вращений подряд.
+More than one transformation can be applied to get a new tone row instance — for example, both inversion and reversion, or multiple rotations.
 
-Техника, в которой всё произведение состоит из применений одной и той же серии и различных её версий, получила название додекафония. По сравнению со свободной атональностью додекафония облегчает написание крупных произведений за счёт следующих свойств:
-* большее единство, поскольку все части восходят к общей серии;
-* богатый инструментарий для мотивного развития (очевидным образом даются инверсия мотива и его обращение; при повторении серии можно изменять ритм мотива; можно вычленять новые мотивы, отправляя какой-либо тон в другой голос);
-* естественная близость к музыкальной форме темы с вариациями; можно придумать атональные аналоги сонатной формы.
+The twelve-tone technique assumes that the whole piece consists of instances of the same tone row and its transformed versions. Compared to free atonality, dodecaphony makes it easier to write large works due to the following properties:
+* greater unity, because everything is derived from the series;
+* a rich set of tools for motivic development (inversion of the motif and reversion of the motif can be achieved trivially; rhythm of the motif can be changed given repeated series; elision is possible if the pitch class to be excluded from the motif is distributed to another voice);
+* native support of writing in the musical form of the theme and variations; atonal analogues of sonata form can be created.
 
-В то же время додекафония сама по себе не гарантирует равномерной циркуляции 12 тонов, необходимой для написания максимально хроматической музыки. Например, если в неком голосе сразу после серии поставить её обращение, последний тон исходной серии встретится два раза подряд. Когда голосов несколько, могут возникать октавы или псевдооктавы. Это именно задача композитора избегать подобных проблем.
+At the same time, dodecaphony alone does not guarantee an even circulation of the 12 pitch classes needed to get totally chromatic music. For example, if a series is played by a voice and then this voice plays its reversion, the last pitch class of the original series is duplicated. If there are multiple voices, octaves or false octaves are possible. It is up to the composer to avoid these flaws.
 
-Точно так же додекафония не гарантирует отсутствие тональных ассоциаций. В произвольном месте может возникнуть, скажем, до-мажорный аккорд. Если пишется максимально хроматическое произведение, то, разумеется, подобных ситуаций надо избегать. Однако Берг намеренно пытался соединить додекафонию с тональной музыкой, и поэтому в таких его произведениях, как «Концерт для скрипки с оркестром» (1935), тональные элементы не противоречат серийной технике.
+Similarly, the twelve-tone technique by itself does not prevent tonal associations. Say, C-major chord can occur in an arbitrary place. If the goal is to write a totally chromatic piece, such situations must be avoided. However, Berg intentionally introduced tonal elements in his dodecaphonic pieces such as *Violin Concerto* (1935), because he tried to combine the two worlds. This shows that, in general, there is no contradiction between tonality and serialism.
 
 #### За пределами Новой венской школы
 
