@@ -213,6 +213,11 @@
 .post-link {
   display: block;
   @include relative-font-size(1.5);
+
+  &,
+  &:visited {
+    color: lighten($text-color, 10%);
+  }
 }
 
 

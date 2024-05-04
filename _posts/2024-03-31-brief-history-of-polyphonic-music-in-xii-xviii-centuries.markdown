@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "Brief History of Polyphonic Music in 12th–18th centuries"
+title: "Brief History of Polyphonic Music in the 12th–18th centuries"
 date: 2024-03-31 14:34:00 +0300
 lang: en
 other_lang_url: /2024/03/31/kratkaya-istoriya-polifonicheskoy-muzyki-xii-xviii-vekov
 ---
 #### Introduction
 
-My first musical piece (Suite for Virtual Pipe Organ, Op. 1) is based upon principles of twelve-tone technique and counterpoint. As for twelve-tone technique (also known as dodecaphony), I will discuss it in a later post. Now, I am going to review the history of contrapuntal music. In this article, words "contrapuntal" and "polyphonic" are used interchangeably, although some musicologists might say their meanings slightly differ. And let me highlight that this text does not claim to be comprehensive and unbiased. After all, I am not a music historian, but an amateur composer. So, the main goal is to provide one of the clues to understanding my work.
+My first musical piece (Suite for Virtual Pipe Organ, Op. 1) is based upon principles of twelve-tone technique and counterpoint. As for twelve-tone technique (also known as dodecaphony), I will discuss it in [a later post]({% post_url 2024-04-30-introduction-to-twelve-tone-technique %}). Now, I am going to review the history of contrapuntal music. In this article, words "contrapuntal" and "polyphonic" are used interchangeably, although some musicologists might say their meanings slightly differ. And let me highlight that this text does not claim to be comprehensive and unbiased. After all, I am not a music historian, but an amateur composer. So, the main goal is to provide one of the clues to understanding my work.
 
 #### Starting point
 
@@ -62,7 +62,7 @@ As for the rules of harmony, examples are as follows:
 * Dissonances are prohibited on strong beats unless one of the notes is tied over bar.
 * Each dissonance must be properly prepared and resolved (for example, tied over bar note must be moved one scale degree down after syncopated dissonance).
 
-In general, there is only one rhythmic rule — misalignments between rhythm and meter are not allowed. This means that a listener must be able to unambiguously define meter from rhythm. This, in turn, means that splitting a measure into note durations must be a set of binary splits with the left part having duration greater than or equal to that of the right part.
+In general, there is only one rhythmic rule — misalignments between rhythm and meter are not allowed. This means that a listener must be able to unambiguously define the meter from the rhythm. This, in turn, means that splitting a measure into note spans must be a set of binary splits with the span of the left part being greater than or equal to that of the right part.
 
 You can read more about the rules of strict counterpoint in *Gradus ad Parnassum* (1725) by Fux or in *Convertible Counterpoint in the Strict Style* (1909) by Taneyev. However, it is appropriate to highlight that these rules prescribe how to write a polyphonic fragment of no more than 20 measures in length. But how are the longer pieces written? They are compiled from such fragments. Coherence between adjacent fragments is achieved with these techniques:
 * ostinato imitation — exact repetition of the same melody by a voice (in particular, repetitions of cantus firmus), whereas other voices may have new melodies,
@@ -71,7 +71,7 @@ You can read more about the rules of strict counterpoint in *Gradus ad Parnassum
 * compound counterpoint — a group of voices is repeated with some modifications such that no rules are violated by the modified copy (unlike the previous options, multiple voices are repeated and not just one).
 
 Compound counterpoint can be classified by applied modifications:
-* invertible counterpoint — some voices might be swapped with each other, inverted, and/or reverted,
+* invertible counterpoint — some voices might be inverted and/or swapped with each other,
 * vertically convertible counterpoint — a pair of voices is repeated with the same shift added to all intervals between them,
 * horizontally convertible counterpoint — a pair of voices is repeated with delay in time between them.
 
@@ -92,8 +92,11 @@ At the end of the 16th century and at the beginning of the 17th century, on the 
 
 Meantime, tonality started to emerge out of cadential formulas (final movements creating stability and resolution). Both of these factors led to decrease in strictness of contrapuntal rules. In free counterpoint, the rules are rather guidelines and violations are allowed, especially if they are caused by tonal considerations.
 
+By the late Baroque, tonality also became a structuring force. More complex musical forms arose due to it. For example, canon has evolved into a fugue. Similarly to canon, fugue is based on an imitation of the same melody by all voices. However, canon has only local coherence provided by stretto imitation, whereas connections between distant fragments may be absent. On the contrary, fugue has piece-level outline and parts can be separated by free from imitation intermediate episodes and codettas. All of this is made possible by modulations between keys. A new key with the same thematic material is a way to both establishing clear boundaries between parts and preserving unity of the whole piece.
+
 A list of some Baroque composers might include:
 * Claudio Monteverdi (1567–1643),
+* Girolamo Frescobaldi (1583–1643),
 * Dieterich Buxtehude (1637–1707),
 * Johann Pachelbel (1653–1706),
 * Antonio Vivaldi (1678–1741),
