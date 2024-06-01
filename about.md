@@ -9,6 +9,6 @@ It is Nikolay Lysenko here. In my daily life, I am a software developer and mach
 
 Chances are that you ask, why I do not write good old tonal music. For me, to survey principles of music organization is as interesting as to create musical pieces itself. There are lots of handbooks and articles about tonal music and it looks like its foundations are well-established. On the contrary, atonal music is still under development and new directions are emerging. I begin with twelve-tone composition and I hope that once I will accumulate enough practice to define new atonal paradigm. To sum it up, tonal music can be likened to a rich continent which is shown in detail on numerous maps, whereas twelve-tone music is like a recently discovered islands that may anticipate an unknown continent.
 
-My first (and, as of now, the only one) piece is called "Suite for Virtual Pipe Organ, Op. 1". After its release, I will post its description and attach links to streaming platforms and to direct download.
+My first (and, as of now, the only one) work is called [*Suite for Virtual Pipe Organ, Op. 1*]({% post_url 2024-05-31-suite-for-virtual-pipe-organ-op1 %}).
 
 To contact me, please send an e-mail to _nikolay.lysenko.1992@gmail.com_.

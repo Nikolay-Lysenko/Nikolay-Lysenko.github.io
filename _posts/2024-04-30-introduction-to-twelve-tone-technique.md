@@ -7,7 +7,7 @@ other_lang_url: /2024/04/30/vvedenie-v-dodecafoniyu
 ---
 #### Introduction
 
-As a result of my experiments with music composition, *Suite for Virtual Pipe Organ, Op. 1* has been written. It might be quite incomprehensible to some listeners, because it is based upon principles of the twelve-tone technique and counterpoint. To provide some clues, I discussed [the history of the latter]({% post_url 2024-03-31-brief-history-of-polyphonic-music-in-xii-xviii-centuries %}) earlier. Now, it is the time to look at the twelve-tone technique (also known as dodecaphony).
+As a result of my experiments with music composition, [*Suite for Virtual Pipe Organ, Op. 1*]({% post_url 2024-05-31-suite-for-virtual-pipe-organ-op1 %}) has been written. It might be quite incomprehensible to some listeners, because it is based upon principles of the twelve-tone technique and counterpoint. To provide some clues, I discussed [the history of the latter]({% post_url 2024-03-31-brief-history-of-polyphonic-music-in-xii-xviii-centuries %}) earlier. Now, it is the time to look at the twelve-tone technique (also known as dodecaphony).
 
 #### Limitations of tonality
 
