@@ -25,15 +25,15 @@ The suite consists of the five independent parts and they are described below.
 
 #### Part 1
 
-This is the most lightweight part, because most of the time it has only two voices. Тем самым каждый голос нетрудно различить, а в большинстве созвучий ровно по одному интервалу, что резко уменьшает долю созвучий, содержащих диссонансы.
+This is the most lightweight part, because most of the time it has only two voices. Hence, both voices are discernible. In addition, the majority of sonorities are formed by exactly one interval and this reduces the fraction of sonorities that include any dissonances.
 
-Тем не менее есть два места, в которых всё становится сложнее. В одном из них появляются ещё два внутренних голоса, один из которых поначалу копирует ритм верхнего голоса, а другой — нижнего, но затем оба они становятся полностью независимыми. В другом же текстура становится полиметрической: верхний голос играет в стандартном размере 4/4, но нижний голос переходит в размер 3/4. Напряжение, созданное этим, не сразу находит разрешение, но в конце концов полностью рассеивается повторением основной темы.
+Nevertheless, there are two places where the composition becomes more involved. At the first of them, two additional internal voices are added. The upper of them has the rhythm of the upper original voice and the lower of them has the rhythm of the lower original voice. Then, both internal voices become completely independent. The second more complex place has polymetric texture. The upper voice has the standard 4/4 meter, whereas the lower voice switches to 3/4 meter. Associated with it tension is maintained for a while, but, after all, it is totally dissipated by the repetition of the main theme.
 
-Что касается построения, много внимания уделено мотивному развитию. Некая последовательность мелодических интервалов повторяется обоими голосами из раза в раз в различных вариациях, но постепенно становится короче, а ещё одни интервалы вытесняются другими.
+As for form building, attention is paid to motivic development. The selected sequence of melodic intervals is repeated by both voices multiple times, but it evolves becoming shorter and replacing some intervals with others.
 
-#### Часть вторая
+#### Part 2
 
-С субъективной точки зрения эта часть отличается воодушевляющей динамичностью. С объективной же — это единственная часть, построенная в тернарной форме. Точнее, она состоит из нескольких вложенных тернарных форм. Общий план выглядит так:
+From a subjective point of view, this part is characterized by an inspiring dynamism, while, from the objective point of view, it is the only part built in ternary form. More precisely, it has multiple layers of nested ternary forms. The general outline looks like this:
 
 $$(A_1 - B_1 - A_1^\prime) - (C_1 - D_1 - E_1) - (A_1^{\prime\prime} - B_2 - A_1^{\prime})$$
 
@@ -41,29 +41,29 @@ $$(F_1 - G_1 - H_1) - (I_1 - J_1 - K_1) - (F_1^\prime - G_2 - H_2)$$
 
 $$(A_1^{\prime\prime\prime} - B_3 - A_1^\prime) - (C_1 - D_1^\prime) - (A_1^{\prime\prime\prime\prime} - B_4 - A_2).$$
 
-В этой нотации буквы обозначают какой-либо музыкальный фрагмент, изменение нижнего индекса обозначает его вариацию, добавление штриха обозначает менее существенную вариацию, а круглые скобки и переносы строк группируют логически связанные составляющие.
+In this notation, letters stand for musical fragments, subscript changes stand for variations, primes stand for less noticeable variations, and parentheses and line breaks group logically related components.
 
-Хотя это и не добавляет никаких музыкальных качеств, получается, что всё произведение построено вокруг числа 3. В нём три голоса и три больших части, а каждая из них распадается ещё на три части, из которых все кроме одной состоят из трёх фрагментов.
+Although it does not create any audible effects, it looks like this part is built around the number 3. There are three voices and three large components each of which can be decomposed into another three components that, in turn, can be decomposed into three fragments (except the one component consisting of only two fragments).
 
-Также можно отметить, что в некоторых фрагментах бывают пары голосов, где в обоих вхождения серии повторены, но во второй раз сдвинуты вертикальные интервалы между голосами и начинаются повторённые вхождения не одновременно. Это можно бы было назвать вдвойне подвижным контрапунктом, но всё-таки он используется между фрагментами, а не внутри одного фрагмента, а ещё он предполагает сохранение ритма при повторении. В общем и целом, данная особенность была внесена в качестве эксперимента, а не ради баланса между связностью и разнообразием, для достижения которого подвижной контрапункт обычно и используется.
+It is also worth to be mentioned that some fragments have pairs of voices forming something that can be likened to doubly convertible counterpoint (i.e., convertible counterpoint featuring both shift of vertical intervals and delay in time). One voice has a tone row instance $K_1$ immediately followed by its variation $K_2$ with altered durations of notes and transposed pitch classes. Similarly, the second voice has tone row instances $L_1$ and $L_2$ with another interval of transposition. Of course, it is not classical doubly convertible counterpoint, since the rhythm of $K_2$ differs from that of $K_1$ and the rhythm of $L_2$ differs from that of $L_1$. However, there is no need for convertible counterpoint, because it is applied between fragments, but, here, all imitations are located within the same fragment. Actually, the above technique is used to create heterogeneous 'echo' and not to solve the trade-off between unity and diversity, as convertible counterponint is usually used.
 
-#### Часть третья
+#### Part 3
 
-Эта часть наиболее лирическая. Она построена в форме темы с вариациями, и в первый раз тема звучит торжественно, но затем становится то задумчивой, то надломленной, то самососредоточенной.
+This part is the most lyrical one. It is built in the form of a theme and variations. For the first time, the theme sounds solemn, but then it constantly changes its character becoming pensive, suffering, or self-contemplative.
 
-По сравнению с предыдущей частью количество голосов увеличивается ещё на один, однако это уравновешивается большей однородностью ритмического рисунка. Как правило, в каждом голосе такт разбивается на три-четыре ноты одним из стандартных способов. Поскольку количество подобных вариантов не так уж велико, порой некоторые голоса движутся в одном и том же ритме.
+Compared to the previous part, the number of voices is increased by one more, but this is compensated by the greater homogeneity of rhythmic patterns. In each voice, the span of a measure is often split into spans of individual notes in one of the standard ways. Since the number of such options is small, sometimes some voices share rhythm.
 
-Для структурирующего разбиения на отдельные компоненты используются интермедии. В них каждое вхождения серии распределяется по всем четырем голосам, что позволяет обновить звучание верхнего голоса, по которому вне интермедий серия проходит горизонтально. Всего есть три интермедии и тем самым произведение разделяется на четыре составляющих.
+To structure the piece and to separate components, interludes are used. In these, tone row instances are distributed amongst all four voices, allowing for a renewal of the upper voice's melodic material (outside the interludes, the upper voice has horizontally distributed tone row instances). There are three interludes in total and, thus, the work is divided into four components.
 
-#### Часть четвёртая
+#### Part 4
 
-Здесь ритм играет более важную роль, чем в остальных частях. Значительную долю времени он един для всех голосов, так что, хотя голосов по-прежнему четыре, эта часть наименее полифоническая.
+Here, rhythm plays a more important role than in the other parts. It is the same for all voices during the majority of measures, meaning that this part has the lowest degree of polyphony even so there are still four voices.
 
-Присутствие полифонии сводится к тому, что иногда один из нижних голосов (чаще всего, бас) приобретает собственный более быстрый ритм. Также есть пара мест, где нижние голоса монотонно движутся четвертями или половинами такта, тогда как ритм верхнего голоса менее тривиален. По общему впечатлению это чем-то напоминает полиметрический участок из первой части.
+The presence of polyphony is reduced to episodes where one of the lower voices (most often, the bass) takes on its own faster rhythm. There are also a couple of places where the lower voices move monotonously in quarters or halves, while the rhythm of the upper voice is less trivial. It makes an impression that is somehow reminiscent of the polymetric section from the first part.
 
-Что касается формы, тут тоже тема с вариациями. В обособлении независимых компонент важная роль отведена паузам.
+As for the musical form, it is the theme and variations again. Pauses are crucial for separation of independent components.
 
-#### Часть пятая
+#### Part 5
 
 Данная часть отличается более напряжённым и насыщенным звучанием. В частности, этому способствует регистровка, в которой задействовано всё что только можно, а резкие и хорошо слышимые регистры наподобие фагота порой ничем не сдерживаются. Количество голосов равно трём, и в том числе поэтому средний голос гораздо более различим, чем средние голоса в двух предыдущих частях.
 
@@ -71,7 +71,7 @@ $$(A_1^{\prime\prime\prime} - B_3 - A_1^\prime) - (C_1 - D_1^\prime) - (A_1^{\pr
 
 В экспозиции сначала две темы проходят одновременно: одна в верхнем голосе, другая в среднем. Затем они проходят в этих же голосах ещё раз, но с другими длительностями нот и на фоне другой мелодии баса. К концу этого места бас начинает стреттную имитацию первой темы. Далее сначала вторая тема проходит по разным голосам, а потом это начинает делать и первая.
 
-Разработка состоит из трёх частей, в каждой из которых новая тема составляется из каких-либо вхождений серии, взятых из двух исходных тем. При этом ритм может произвольным образом меняться, а ещё к вхождениям могут применяться дополнительные преобразования. Иногда какой-либо из голосов, не ведущих тему, имитирует её.
+Разработка состоит из трёх частей, в каждой из которых новая тема составляется из каких-либо вхождений серии, взятых из двух исходных тем. При этом ритм может произвольным образом меняться, а ещё к вхождениям могут применяться дополнительные преобразования. Иногда какой-либо из голосов, не ведущих тему, имитирует её. А иногда два голоса, не ведущих тему, образуют между собой свободное подобие горизонтально-подвижного контрапункта, где в повторениях длительности нот меняются.
 
 Рекапитуляция начинается с буквального повторения начала, но в другой регистровке. Далее же обе исходных темы проходят по голосам в своём первоначальном виде, но уже на фоне нового материала.
 
