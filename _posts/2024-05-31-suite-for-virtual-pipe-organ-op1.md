@@ -51,7 +51,7 @@ It is also worth to be mentioned that some fragments have pairs of voices formin
 
 This part is the most lyrical one. It is built in the form of a theme and variations. For the first time, the theme sounds solemn, but then it constantly changes its character becoming pensive, suffering, or self-contemplative.
 
-Compared to the previous part, the number of voices is increased by one more, but this is compensated by the greater homogeneity of rhythmic patterns. In each voice, the span of a measure is often split into spans of individual notes in one of the standard ways. Since the number of such options is small, sometimes some voices share rhythm.
+Compared to the previous part, the number of voices is increased by one more, but this is compensated by the greater homogeneity of rhythmic patterns. In each voice, the span of a measure is often split into spans of individual notes in one of the standard ways. Since the number of such options is small, occasionally some voices share rhythm.
 
 To structure the piece and to separate components, interludes are used. In these, tone row instances are distributed amongst all four voices, allowing for a renewal of the upper voice's melodic material (outside the interludes, the upper voice has horizontally distributed tone row instances). There are three interludes in total and, thus, the work is divided into four components.
 
