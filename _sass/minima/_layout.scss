@@ -269,3 +269,13 @@
     }
   }
 }
+
+
+
+/**
+ * Miscellaneous
+ */
+.rss-subscribe {
+  padding-top: -webkit-calc(#{$spacing-unit} / 2);
+  padding-top:         calc(#{$spacing-unit} / 2);
+}
