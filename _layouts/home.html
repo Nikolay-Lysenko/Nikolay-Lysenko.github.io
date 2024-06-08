@@ -30,7 +30,7 @@ layout: default
       {%- endfor -%}
     </ul>
 
-    <p class="rss-subscribe"><a href="{{ "/feed.xml" | relative_url }}">{{ page.rss_info | default: "RSS feed (in XML)" }}</a></p>
+    <p class="rss-subscribe"><a href="{{ "/feed.xml" | relative_url }}">{{ page.rss_info | default: "RSS feed (for those who still have an RSS reader)" }}</a></p>
   {%- endif -%}
 
 </div>
