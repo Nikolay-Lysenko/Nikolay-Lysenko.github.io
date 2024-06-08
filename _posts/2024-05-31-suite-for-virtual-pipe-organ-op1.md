@@ -73,6 +73,6 @@ In the exposition, the two main themes are presented simultaneously. The first t
 
 The development is split into three sections each of which has a new theme compiled from tone row instances used in the two original themes. These tone row instances might be transformed and their rhythm can vary arbitrarily. If a voice does not introduce a new theme, it can imitate it later. Also, a pair of voices that do not introduce a new theme may have something resembling horizontally convertible counterpoint up to altered durations in imitation.
 
-The recapitulation starts with exact repetition of the opening phrases, but with another registration. After that, both original themes pass through voices given new surrounding material.
+The recapitulation starts with exact repetition of the opening, but with another registration. After that, both original themes pass through voices given new surrounding material.
 
 In the coda, tone row is distributed among all three voices which means that the main themes are left behind. Even before the coda begins, stops other than flutes are gradually excluded, so the overall sound becomes milder.
