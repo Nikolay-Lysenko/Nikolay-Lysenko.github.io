@@ -22,6 +22,7 @@ date_format:
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 # Google Analytics
 google_analytics: G-MG6BBEFHDP

@@ -17,7 +17,7 @@ The music of those times has the following properties:
 * modality,
 * monophony.
 
-Let us discuss them one by one. Although it may sound tautological, modal music is music that is organized around mode (or modus in Latin). The scale of each mode includes 7 out of the 12 pitches in the octave. Intervals between them are distributed unevenly — either tone or semitone is between adjacent pitches from a scale. Because of that, some pitches are perceived as stable, whereas the others are perceived as unstable. In modal music, development of melody depends on gravitation of unstable pitches to stable ones. This is the characteristic property of modal music.
+Let us discuss them one by one. Although it may sound tautological, modal music is music that is organized around mode. The scale of each mode includes 7 out of the 12 pitches in the octave. Intervals between them are distributed unevenly — either tone or semitone is between adjacent pitches from a scale. Because of that, some pitches are perceived as stable, whereas the others are perceived as unstable. In modal music, development of melody depends on gravitation of unstable pitches to stable ones. This is the characteristic property of modal music.
 
 Even so the scale of Ionian mode is the same as that of natural major and the scale of Aeolian mode is the same as that of natural minor, similarities to tonal music are occasional. The following properties, innate to tonal music, are absent:
 * gravitation to tonic which plays the role of universal center (only nearby unstable pitches are attracted by the first scale degree in modal music),
