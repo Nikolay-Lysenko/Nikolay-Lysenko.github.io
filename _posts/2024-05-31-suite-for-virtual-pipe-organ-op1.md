@@ -7,9 +7,9 @@ other_lang_url: /2024/05/31/suita-dlya-cyfrovogo-organa-op1
 ---
 #### Links for personal use
 
-You can listen to this suite on the following streaming platforms: (the list will appear after the release).
+You can listen to this suite on the following streaming platforms: [Spotify](https://open.spotify.com/album/7l1QFq7LKQXgG8aYjVtRDI), [Apple Music](https://music.apple.com/us/album/suite-for-virtual-pipe-organ-op-1-ep/1754422161), [Deezer](https://www.deezer.com/us/album/607937522), [YouTube Music](https://music.youtube.com/playlist?list=OLAK5uy_nBKOx8lq_22SIB25y3j6lifQ6Gx3hHsvM), [Amazon Music](https://music.amazon.com/albums/B0D8Z6MZG3), and many others.
 
-The suite can also be downloaded as FLAC audio files from cloud storages (links will also appear after the release).
+The suite can also be downloaded as FLAC audio files from [Drobox](https://www.dropbox.com/scl/fo/i45fvthpo7ru8nxjm0w4c/ADvn3vIWrahJevGLeJ31wlM?rlkey=k3wg9r2uch77z3hak5f4zkeeg&st=muzlbdn6&dl=0) and [Yandex.Disk](https://disk.yandex.ru/d/HWN8sfEQM86ZoA) cloud storages.
 
 #### Overview
 
