@@ -7,9 +7,11 @@ other_lang_url: /2024/05/31/suite-for-virtual-pipe-organ-op1
 ---
 #### Ссылки для ознакомления
 
-Прослушать данную сюиту можно на следующих стриминговых платформах: [«Яндекс.Музыка»](https://music.yandex.ru/album/31812949), [«Звук»](https://zvuk.com/release/34048192), [Apple Music](https://music.apple.com/ru/album/suite-for-virtual-pipe-organ-op-1-ep/1754422161), [Spotify](https://open.spotify.com/album/7l1QFq7LKQXgG8aYjVtRDI), [YouTube Music](https://music.youtube.com/playlist?list=OLAK5uy_nBKOx8lq_22SIB25y3j6lifQ6Gx3hHsvM) и многих других.
+Прослушать данную сюиту можно на стриминговых платформах [«Яндекс.Музыка»](https://music.yandex.ru/album/31812949), [«Звук»](https://zvuk.com/release/34048192), [Apple Music](https://music.apple.com/ru/album/suite-for-virtual-pipe-organ-op-1-ep/1754422161), [Spotify](https://open.spotify.com/album/7l1QFq7LKQXgG8aYjVtRDI), [YouTube Music](https://music.youtube.com/playlist?list=OLAK5uy_nBKOx8lq_22SIB25y3j6lifQ6Gx3hHsvM) и на многих других.
 
 Также сюиту можно скачать в виде аудиофайлов в формате FLAC из облачных хранилищ [«Яндекс.Диск»](https://disk.yandex.ru/d/HWN8sfEQM86ZoA) и [Dropbox](https://www.dropbox.com/scl/fo/i45fvthpo7ru8nxjm0w4c/ADvn3vIWrahJevGLeJ31wlM?rlkey=k3wg9r2uch77z3hak5f4zkeeg&st=muzlbdn6&dl=0).
+
+А ноты можно найти в видео на моём [YouTube-канале](https://www.youtube.com/playlist?list=PLetNg-rTDcyu2pKRZsZZK4dvkk4bB624B).
 
 #### Общий обзор
 
