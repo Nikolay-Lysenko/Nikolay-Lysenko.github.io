@@ -178,8 +178,8 @@ pre {
  * Wrapper
  */
 .wrapper {
-  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 3));
-  max-width:         calc(#{$content-width} - (#{$spacing-unit} * 3));
+  max-width: -webkit-calc(#{$content-width} - (3 * #{$spacing-unit}));
+  max-width:         calc(#{$content-width} - (3 * #{$spacing-unit}));
   margin-right: auto;
   margin-left: auto;
   padding-right: 1.5 * $spacing-unit;
@@ -187,10 +187,10 @@ pre {
   @extend %clearfix;
 
   @include media-query($on-laptop) {
-    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
-    max-width:         calc(#{$content-width} - (#{$spacing-unit}));
-    padding-right: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
+    max-width: -webkit-calc(#{$content-width} - (2 * #{$spacing-unit}));
+    max-width:         calc(#{$content-width} - (2 * #{$spacing-unit}));
+    padding-right: 0.75 * $spacing-unit;
+    padding-left: 0.75 * $spacing-unit;
   }
 
   background-color: $wrapper-color

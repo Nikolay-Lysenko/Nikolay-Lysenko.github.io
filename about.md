@@ -3,6 +3,7 @@ layout: page
 title: About
 lang: en
 other_lang_url: /ru/about
+skip_footer: true
 ---
 
 It is Nikolay Lysenko here. In my daily life, I am a software developer and machine learning expert, but recently I tried myself as a composer. If you do not have enough experience with atonal pieces, my music may sound strange. In order to facilitate grasping my works, I launched this site. It is a place where I review my compositions and also publish notes on theory and history of music.
