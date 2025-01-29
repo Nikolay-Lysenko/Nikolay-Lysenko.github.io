@@ -1,0 +1,13 @@
+<?-- This is a modified version of the eponymous file from Minima theme. -->
+<?-- Minima theme is released under MIT license, Copyright (c) 2016-present Parker Moore and the minima contributors. -->
+
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+    {%- if page.lang == "en" -%}
+      <a href="{{ "/" | relative_url }}">Index</a>
+    {%- endif -%}
+    {%- if page.lang == "ru" -%}
+      <a href="{{ "/ru" | relative_url }}">На главную</a>
+    {%- endif -%}
+</footer>
+

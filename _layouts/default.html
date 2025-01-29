@@ -16,6 +16,12 @@
       </div>
     </main>
 
+    {% assign skip_footer = page.skip_footer | default: false %}
+    {%- unless skip_footer -%}
+      {%- include footer.html -%}
+    {%- endunless -%}
+
+
   </body>
 
 </html>
