@@ -9,7 +9,7 @@ other_lang_url: /2024/05/31/suita-dlya-cyfrovogo-organa-op1
 
 You can listen to this suite on the streaming platforms such as [Spotify](https://open.spotify.com/album/7l1QFq7LKQXgG8aYjVtRDI), [Apple Music](https://music.apple.com/us/album/suite-for-virtual-pipe-organ-op-1-ep/1754422161), [Deezer](https://www.deezer.com/us/album/607937522), [YouTube Music](https://music.youtube.com/playlist?list=OLAK5uy_nBKOx8lq_22SIB25y3j6lifQ6Gx3hHsvM), [Qobuz](https://www.qobuz.com/us-en/album/suite-for-virtual-pipe-organ-op-1-nikolay-lysenko/oacog19p5nkvb), [Amazon Music](https://music.amazon.com/albums/B0D8Z6MZG3), and many others.
 
-The suite can also be downloaded as FLAC audio files from [Google Drive](https://drive.google.com/drive/folders/10vFiHG-RgNUwecPxGk35SmBFZ0bad5sd?usp=sharing), [Drobox](https://www.dropbox.com/scl/fo/i45fvthpo7ru8nxjm0w4c/ADvn3vIWrahJevGLeJ31wlM?rlkey=k3wg9r2uch77z3hak5f4zkeeg&st=muzlbdn6&dl=0), and [Yandex.Disk](https://disk.yandex.ru/d/HWN8sfEQM86ZoA) cloud storages.
+The suite can also be downloaded as FLAC audio files from [Google Drive](https://drive.google.com/drive/folders/10vFiHG-RgNUwecPxGk35SmBFZ0bad5sd?usp=sharing), [Dropbox](https://www.dropbox.com/scl/fo/i45fvthpo7ru8nxjm0w4c/ADvn3vIWrahJevGLeJ31wlM?rlkey=k3wg9r2uch77z3hak5f4zkeeg&st=muzlbdn6&dl=0), and [Yandex.Disk](https://disk.yandex.ru/d/HWN8sfEQM86ZoA) cloud storages.
 
 As for the scores, they can be found in the videos on my [YouTube channel](https://www.youtube.com/playlist?list=PLetNg-rTDcyu2pKRZsZZK4dvkk4bB624B).
 
