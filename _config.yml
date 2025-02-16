@@ -24,8 +24,9 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
-# Google Analytics
+# Analytics tools
 google_analytics: G-MG6BBEFHDP
+yandex_metrika: 99934713
 
 # Exclude from processing.
 # The following items will not be processed, by default.
